@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ddcdc9e-4836-4050-9341-53c037c46c02" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/dao/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/dao/ProductDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
@@ -67,26 +67,17 @@
       <recent name="C:\Users\21263\OneDrive\Bureau\Mosh_courses\JavaFX_ORM\src\main\resources" />
       <recent name="C:\Users\21263\OneDrive\Bureau\Mosh_courses\Java-Course\JavaFX_ORM\src\main\resources\ma\enset" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.enset.dao" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.PresentationSpringIOC">
+  <component name="RunManager" selected="Application.PresentationSpringIOCAnnotation">
     <configuration name="DaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ma.enset.dao.DaoTest" />
       <module name="JavaFX_ORM" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ma.enset.dao.Dao" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaFxApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ma.enset.JavaFxApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ma.enset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +111,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PresentationSpringIOCAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma.enset.presentation.PresentationSpringIOCAnnotation" />
+      <module name="JavaFX_ORM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.enset.presentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PresentationV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ma.enset.presentation.PresentationV2" />
       <module name="JavaFX_ORM" />
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PresentationSpringIOCAnnotation" />
         <item itemvalue="Application.PresentationSpringIOC" />
         <item itemvalue="Application.PresentationV2" />
         <item itemvalue="Application.DaoTest" />
         <item itemvalue="Application.JavaFxApp" />
-        <item itemvalue="Application.JavaFxApp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +172,7 @@
       <workItem from="1704725250650" duration="20000" />
       <workItem from="1705677326333" duration="19000" />
       <workItem from="1705681897461" duration="97000" />
-      <workItem from="1705742092654" duration="8420000" />
+      <workItem from="1705742092654" duration="11821000" />
     </task>
     <servers />
   </component>

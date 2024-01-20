@@ -12,8 +12,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository("pv1")
-public class ProductDaoImpl implements ProductDao{
+@Repository("pv2")
+public class ProductDaoImpl2024 implements ProductDao{
     private  Connection connection = DBSingletonDb.connection;
     private PreparedStatement pstm=null;
     @Override
@@ -78,7 +78,8 @@ public class ProductDaoImpl implements ProductDao{
             throw new RuntimeException(e);
         }
 
-        System.out.println("v1\n");
+        System.out.println("From 2024\n");
+
         return products;
     }
 
