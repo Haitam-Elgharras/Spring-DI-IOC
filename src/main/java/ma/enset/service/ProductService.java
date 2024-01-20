@@ -6,7 +6,7 @@ import ma.enset.dao.entities.Product;
 import java.util.List;
 
 public class ProductService implements IProductService {
-    private ProductDao productDao;
+    private final ProductDao productDao;
 
     // this is a constructor injection
     public ProductService(ProductDao productDao) {

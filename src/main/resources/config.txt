@@ -1,0 +1,4 @@
+ma.enset.dao.ProductDaoImpl
+ma.enset.service.ProductService
+ma.enset.dao.ClientDaoImpl
+ma.enset.service.ClientService
