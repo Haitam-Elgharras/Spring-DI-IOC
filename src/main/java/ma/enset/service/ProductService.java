@@ -1,16 +1,20 @@
 package ma.enset.service;
 
 import ma.enset.dao.ProductDao;
+import ma.enset.dao.ProductDaoImpl;
 import ma.enset.dao.entities.Product;
 
 import java.util.List;
 
 public class ProductService implements IProductService {
-    private final ProductDao productDao;
+    private  ProductDao productDao;
 
     // this is a constructor injection
     public ProductService(ProductDao productDao) {
         this.productDao = productDao;
+    }
+
+    public ProductService() {
     }
 
     @Override
@@ -36,5 +40,9 @@ public class ProductService implements IProductService {
     @Override
     public List<Product> searchProductByQuery(String query) {
         return productDao.searchProductByQuery(query);
+    }
+
+    public void setDao(ProductDaoImpl dao) {
+        this.productDao =dao;
     }
 }

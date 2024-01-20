@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="productDao" class="ma.enset.dao.ProductDaoImpl"/>
+    <bean id="productService" class="ma.enset.service.ProductService">
+<!--    for setter injection
+        <property name="dao" ref="productDao"/>-->
+<!--    for constructor injection-->
+        <constructor-arg ref="productDao"/>
+    </bean>
+
+    <bean id="clientDao" class="ma.enset.dao.ClientDaoImpl"/>
+    <bean id="clientService" class="ma.enset.service.ClientService">
+        <constructor-arg ref="clientDao"/>
+    </bean>
+
+</beans>
