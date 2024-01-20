@@ -5,11 +5,9 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.input.MouseEvent;
 import ma.enset.dao.ProductDaoImpl;
 import ma.enset.dao.entities.Product;
 import ma.enset.service.IProductService;
@@ -45,6 +43,9 @@ public class FormController implements Initializable {
 
     @FXML
     private TextField fieldPrix;
+
+    @FXML
+    private ChoiceBox<String> selectedCategory;
 
     ObservableList<Product> data = FXCollections.observableArrayList();
 
@@ -85,6 +86,13 @@ public class FormController implements Initializable {
         data.addAll(service.getAllProducts());
         tableProducts.setItems(data);
     }
+
+//    @FXML
+//    public void displayCategories(MouseEvent mouseEvent) {
+//        selectedCategory.getItems().clear();
+//        for (String category : service.getAllCategories())
+//            selectedCategory.getItems().add(category);
+//    }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

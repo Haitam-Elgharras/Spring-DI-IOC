@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ClientDaoImpl implements ClientDao {
-    private Connection connection = DBSingletonDb.connection;
+    private final Connection connection = DBSingletonDb.connection;
     PreparedStatement pstm = null;
 
     static {
@@ -134,7 +134,8 @@ public class ClientDaoImpl implements ClientDao {
         Client client = null;
         try {
             pstm = connection.prepareStatement(
-                    "SELECT * FROM clients WHERE name LIKE ? OR email LIKE ? OR phone LIKE ? OR address LIKE ?"
+                    "SELECT * FROM clients WHERE name LIKE ? OR email LIKE ? " +
+                            "OR phone LIKE ? OR address LIKE ?"
             );
 
             String likeQuery = "%" + query + "%";

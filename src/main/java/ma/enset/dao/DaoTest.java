@@ -47,7 +47,8 @@ public class DaoTest {
 
         // test add a client
         ClientDao clientDao = new ClientDaoImpl();
-        clientDao.create(new Client("Client 1", "gmail@gmail.com", "0606060606", "Address 1"));
+        clientDao.create(new Client("Client 1",
+                "gmail@gmail.com", "0606060606", "Address 1"));
         clientDao.getAll().forEach(System.out::println);
     }
 

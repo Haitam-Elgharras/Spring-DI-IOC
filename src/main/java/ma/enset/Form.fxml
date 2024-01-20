@@ -33,7 +33,7 @@
                 <TextField fx:id="fieldNom" GridPane.columnIndex="1" />
                 <TextField fx:id="fieldQuantity" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                 <TextField fx:id="fieldPrix" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <ChoiceBox fx:id="salactedCategory" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <ChoiceBox fx:id="selectedCategory" onMouseClicked="#displayCategories" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             </children>
         </GridPane>
     </top>

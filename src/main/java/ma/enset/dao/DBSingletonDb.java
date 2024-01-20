@@ -10,6 +10,7 @@ public class DBSingletonDb {
     private static String password = "azerty";
     public static Connection connection;
 
+    // static means that this block will be executed once when the class is loaded
      static {
         System.out.println("Connecting database ...");
         try {
