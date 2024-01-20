@@ -13,17 +13,17 @@ import java.util.List;
 
 @Service("ps")
 public class ProductService implements IProductService {
-    @Autowired
-    @Qualifier("pv2")
+    // autowired with is not raccomanded cause it stole the encapsulation in the context of object-oriented programming
+    // instead we use constructor injection and let the setter for later usages
+    //@Autowired
+    //@Qualifier("pv2")
     private  ProductDao productDao;
 
     // this is a constructor injection
-    public ProductService(ProductDao productDao) {
+    public ProductService(@Qualifier("pv1") ProductDao productDao) {
         this.productDao = productDao;
     }
 
-    public ProductService() {
-    }
 
     @Override
     public void addProduct(Product product) {

@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ddcdc9e-4836-4050-9341-53c037c46c02" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/dao/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/dao/ProductDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ma/enset/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/enset/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -172,7 +173,7 @@
       <workItem from="1704725250650" duration="20000" />
       <workItem from="1705677326333" duration="19000" />
       <workItem from="1705681897461" duration="97000" />
-      <workItem from="1705742092654" duration="11821000" />
+      <workItem from="1705742092654" duration="13891000" />
     </task>
     <servers />
   </component>
